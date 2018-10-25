@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Chicago',
 
     /*
     |--------------------------------------------------------------------------
@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        acubTruck\Providers\AppServiceProvider::class,
+        acubTruck\Providers\AuthServiceProvider::class,
+        // acubTruck\Providers\BroadcastServiceProvider::class,
+        acubTruck\Providers\EventServiceProvider::class,
+        acubTruck\Providers\RouteServiceProvider::class,
 
     ],
 
